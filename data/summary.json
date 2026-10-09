@@ -1,0 +1,584 @@
+{
+ "meta": {
+  "retrieved": "2026-10-08",
+  "source_name": "GC AI Register (MVP)",
+  "source_url": "https://open.canada.ca/data/en/dataset/fcbc0200-79ba-4fa4-94a6-00e32facea6b",
+  "csv_filename": "gc-ai-register-mvp-registre-de-lia-du-gc-pmv-04-26.csv",
+  "csv_dataset_date": "2026-04-28",
+  "total_records": 412,
+  "row_count_verified": true
+ },
+ "status_counts": {
+  "development": 182,
+  "production": 160,
+  "retired": 28,
+  "unknown": 42
+ },
+ "status_note": "The November 2025 launch announcement described register stages as research / proof-of-concept / development / deployed, but the published CSV (2026-04-28) actually uses 'In production', 'In development', 'Retired', and blank. Normalized to production / development / retired / unknown. Raw status variants present: 'In production' (153), 'In production ' with trailing space (5), 'in production' lowercase (2), 'In development' (171), 'In development ' with trailing space (11), 'Retired' (28), blank (42).",
+ "build_counts": {
+  "vendor": 156,
+  "government": 180,
+  "open_source": 25,
+  "other": 21,
+  "unknown": 30
+ },
+ "build_share_pct": {
+  "vendor": 37.9,
+  "government": 43.7,
+  "open_source": 6.1,
+  "other": 5.1,
+  "unknown": 7.3
+ },
+ "institutions": [
+  {
+   "name": "Canada School of Public Service / École de la fonction publique du Canada",
+   "total": 31,
+   "production": 20,
+   "development": 8,
+   "retired": 0,
+   "unknown": 3
+  },
+  {
+   "name": "Innovation, Science and Economic Development Canada / Innovation, sciences et développement économique Canada",
+   "total": 26,
+   "production": 13,
+   "development": 13,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "National Research Council Canada / Conseil national de recherches Canada",
+   "total": 25,
+   "production": 7,
+   "development": 15,
+   "retired": 2,
+   "unknown": 1
+  },
+  {
+   "name": "Statistics Canada / Statistique Canada",
+   "total": 25,
+   "production": 9,
+   "development": 14,
+   "retired": 2,
+   "unknown": 0
+  },
+  {
+   "name": "Global Affairs Canada / Affaires mondiales Canada",
+   "total": 21,
+   "production": 14,
+   "development": 3,
+   "retired": 4,
+   "unknown": 0
+  },
+  {
+   "name": "Fisheries and Oceans Canada / Pêches et Océans Canada",
+   "total": 17,
+   "production": 2,
+   "development": 15,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Immigration, Refugees and Citizenship Canada / Immigration, réfugiés et citoyenneté Canada",
+   "total": 17,
+   "production": 1,
+   "development": 5,
+   "retired": 0,
+   "unknown": 11
+  },
+  {
+   "name": "Canada Revenue Agency / Agence du revenu du Canada",
+   "total": 16,
+   "production": 2,
+   "development": 13,
+   "retired": 1,
+   "unknown": 0
+  },
+  {
+   "name": "Employment and Social Development Canada / Emploi et Développement social Canada",
+   "total": 16,
+   "production": 8,
+   "development": 8,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Natural Resources Canada / Ressources naturelles Canada",
+   "total": 16,
+   "production": 16,
+   "development": 0,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Transport Canada / Transports Canada",
+   "total": 16,
+   "production": 7,
+   "development": 3,
+   "retired": 2,
+   "unknown": 4
+  },
+  {
+   "name": "Royal Canadian Mounted Police / Gendarmerie royale du Canada",
+   "total": 14,
+   "production": 13,
+   "development": 1,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Environment and Climate Change Canada / Environnement et Changement climatique Canada",
+   "total": 13,
+   "production": 1,
+   "development": 10,
+   "retired": 1,
+   "unknown": 1
+  },
+  {
+   "name": "Agriculture and Agri-Food Canada / Agriculture et agroalimentaire Canada",
+   "total": 12,
+   "production": 3,
+   "development": 8,
+   "retired": 1,
+   "unknown": 0
+  },
+  {
+   "name": "Canadian Air Transport Security Authority / L’Administration canadienne de sûreté du transport aérien",
+   "total": 12,
+   "production": 3,
+   "development": 9,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Canadian Space Agency / Agence spatiale canadienne",
+   "total": 10,
+   "production": 0,
+   "development": 4,
+   "retired": 0,
+   "unknown": 6
+  },
+  {
+   "name": "Veterans Affairs Canada / Anciens Combattants Canada",
+   "total": 10,
+   "production": 4,
+   "development": 2,
+   "retired": 4,
+   "unknown": 0
+  },
+  {
+   "name": "Canada Border Services Agency / Agence des services frontaliers du Canada",
+   "total": 9,
+   "production": 4,
+   "development": 5,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Public Services and Procurement Canada / Services publics et Approvisionnement Canada",
+   "total": 9,
+   "production": 1,
+   "development": 8,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Library and Archives Canada / Bibliothèque et Archives Canada",
+   "total": 8,
+   "production": 2,
+   "development": 0,
+   "retired": 6,
+   "unknown": 0
+  },
+  {
+   "name": "Shared Services Canada / Services partagés Canada",
+   "total": 8,
+   "production": 4,
+   "development": 4,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Indigenous Services Canada / Services aux Autochtones Canada",
+   "total": 7,
+   "production": 0,
+   "development": 1,
+   "retired": 0,
+   "unknown": 6
+  },
+  {
+   "name": "Department of Justice Canada / Ministère de la Justice Canada",
+   "total": 6,
+   "production": 1,
+   "development": 5,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Health Canada / Santé Canada",
+   "total": 6,
+   "production": 2,
+   "development": 4,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "National Defence / Défense nationale",
+   "total": 6,
+   "production": 0,
+   "development": 5,
+   "retired": 0,
+   "unknown": 1
+  },
+  {
+   "name": "National Film Board / Office national du film",
+   "total": 6,
+   "production": 0,
+   "development": 0,
+   "retired": 1,
+   "unknown": 5
+  },
+  {
+   "name": "Financial Consumer Agency of Canada / Agence de la consommation en matière financière du Canada",
+   "total": 5,
+   "production": 4,
+   "development": 1,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Housing, Infrastructure and Communities Canada / Logement, infrastructures et collectivités Canada",
+   "total": 5,
+   "production": 3,
+   "development": 2,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Canadian Heritage / Patrimoine canadien",
+   "total": 4,
+   "production": 0,
+   "development": 2,
+   "retired": 2,
+   "unknown": 0
+  },
+  {
+   "name": "Canadian Radio-television and Telecommunications Commission / Conseil de la radiodiffusion et des télécommunications canadiennes",
+   "total": 4,
+   "production": 0,
+   "development": 0,
+   "retired": 0,
+   "unknown": 4
+  },
+  {
+   "name": "Natural Sciences and Engineering Research Council of Canada / Conseil de recherches en sciences naturelles et en génie du Canada",
+   "total": 4,
+   "production": 2,
+   "development": 2,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Public Safety Canada / Sécurité publique Canada",
+   "total": 4,
+   "production": 1,
+   "development": 3,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Public Service Commission of Canada / Commission de la fonction publique du Canada",
+   "total": 4,
+   "production": 2,
+   "development": 2,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Administrative Tribunals Support Service of Canada / Service canadien d'appui aux tribunaux administratifs",
+   "total": 3,
+   "production": 1,
+   "development": 2,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Canada Energy Regulator / La Régie de l’énergie du Canada",
+   "total": 3,
+   "production": 3,
+   "development": 0,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "National Capital Commission / Commission de la capitale nationale",
+   "total": 3,
+   "production": 1,
+   "development": 0,
+   "retired": 2,
+   "unknown": 0
+  },
+  {
+   "name": "Social Sciences and Humanities Research Council of Canada / Conseil de recherches en sciences humaines du Canada",
+   "total": 3,
+   "production": 2,
+   "development": 1,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Correctional Service of Canada / Service correctionnel du Canada",
+   "total": 2,
+   "production": 0,
+   "development": 2,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Treasury Board of Canada Secretariat / Secrétariat du Conseil du Trésor du Canada",
+   "total": 2,
+   "production": 1,
+   "development": 1,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Canadian Grain Commission / Commission canadienne des grains",
+   "total": 1,
+   "production": 1,
+   "development": 0,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Impact Assessment Agency of Canada / Agence d'évaluation d'impact du Canada",
+   "total": 1,
+   "production": 1,
+   "development": 0,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Patented Medicine Prices Review Board Canada / Conseil d'examen du prix des médicaments brevetés Canada",
+   "total": 1,
+   "production": 1,
+   "development": 0,
+   "retired": 0,
+   "unknown": 0
+  },
+  {
+   "name": "Privy Council Office / Bureau du Conseil privé",
+   "total": 1,
+   "production": 0,
+   "development": 1,
+   "retired": 0,
+   "unknown": 0
+  }
+ ],
+ "institution_name_strings": 43,
+ "institutions_claimed_by_tbs": 42,
+ "org_discrepancy_note": "The Register holds 43 distinct government_organization strings; TBS's launch communications claimed 42 participating institutions. No two strings share the same EN part or the same FR part, so there is no exact duplicate row pair in the CSV. Name variants that could explain a counting difference on TBS's side: 'National Film Board / Office national du film' (officially 'National Film Board of Canada'); 'Patented Medicine Prices Review Board Canada / Conseil d'examen du prix des médicaments brevetés Canada' (odd trailing 'Canada' in both parts). Neither collides with another row. The gap is not resolvable from the CSV alone; likely TBS counted a different snapshot or excluded one entity (no source given for the 42 figure).",
+ "oldest": {
+  "id": "AIRO-0029",
+  "register_id": "2526-CBSA-ASFC-002",
+  "name_en": "Fuzzy Search (SSAName3)",
+  "institution": "Canada Border Services Agency / Agence des services frontaliers du Canada",
+  "status_year": "1994"
+ },
+ "year_histogram": [
+  {
+   "year": "1994",
+   "count": 1
+  },
+  {
+   "year": "2001",
+   "count": 1
+  },
+  {
+   "year": "2009",
+   "count": 1
+  },
+  {
+   "year": "2012",
+   "count": 1
+  },
+  {
+   "year": "2013",
+   "count": 1
+  },
+  {
+   "year": "2016",
+   "count": 3
+  },
+  {
+   "year": "2017",
+   "count": 2
+  },
+  {
+   "year": "2018",
+   "count": 2
+  },
+  {
+   "year": "2019",
+   "count": 14
+  },
+  {
+   "year": "2020",
+   "count": 6
+  },
+  {
+   "year": "2021",
+   "count": 11
+  },
+  {
+   "year": "2022",
+   "count": 17
+  },
+  {
+   "year": "2023",
+   "count": 19
+  },
+  {
+   "year": "2024",
+   "count": 43
+  },
+  {
+   "year": "2025",
+   "count": 217
+  },
+  {
+   "year": "2026",
+   "count": 7
+  },
+  {
+   "year": "unreported",
+   "count": 66
+  }
+ ],
+ "vendor_named_count": 168,
+ "personal_info_counts": {
+  "N": 224,
+  "Y": 88,
+  "blank": 100
+ },
+ "purpose_categories": [
+  {
+   "category": "other",
+   "count": 130
+  },
+  {
+   "category": "analytics_prediction",
+   "count": 85
+  },
+  {
+   "category": "chatbot_assistant",
+   "count": 72
+  },
+  {
+   "category": "document_processing",
+   "count": 43
+  },
+  {
+   "category": "vision_imagery",
+   "count": 34
+  },
+  {
+   "category": "language_translation",
+   "count": 26
+  },
+  {
+   "category": "automation_workflow",
+   "count": 16
+  },
+  {
+   "category": "data_matching",
+   "count": 3
+  },
+  {
+   "category": "research_model",
+   "count": 3
+  }
+ ],
+ "showcase": {
+  "top5_institutions": [
+   {
+    "name": "Canada School of Public Service / École de la fonction publique du Canada",
+    "total": 31,
+    "production": 20,
+    "development": 8,
+    "retired": 0,
+    "unknown": 3
+   },
+   {
+    "name": "Innovation, Science and Economic Development Canada / Innovation, sciences et développement économique Canada",
+    "total": 26,
+    "production": 13,
+    "development": 13,
+    "retired": 0,
+    "unknown": 0
+   },
+   {
+    "name": "National Research Council Canada / Conseil national de recherches Canada",
+    "total": 25,
+    "production": 7,
+    "development": 15,
+    "retired": 2,
+    "unknown": 1
+   },
+   {
+    "name": "Statistics Canada / Statistique Canada",
+    "total": 25,
+    "production": 9,
+    "development": 14,
+    "retired": 2,
+    "unknown": 0
+   },
+   {
+    "name": "Global Affairs Canada / Affaires mondiales Canada",
+    "total": 21,
+    "production": 14,
+    "development": 3,
+    "retired": 4,
+    "unknown": 0
+   }
+  ],
+  "build_shares": [
+   {
+    "built_by": "government",
+    "count": 180,
+    "pct": 43.7
+   },
+   {
+    "built_by": "vendor",
+    "count": 156,
+    "pct": 37.9
+   },
+   {
+    "built_by": "unknown",
+    "count": 30,
+    "pct": 7.3
+   },
+   {
+    "built_by": "open_source",
+    "count": 25,
+    "pct": 6.1
+   },
+   {
+    "built_by": "other",
+    "count": 21,
+    "pct": 5.1
+   }
+  ],
+  "oldest_system": {
+   "name_en": "Fuzzy Search (SSAName3)",
+   "institution": "Canada Border Services Agency / Agence des services frontaliers du Canada",
+   "status_year": "1994",
+   "id": "AIRO-0029"
+  },
+  "spend_card": "Reported aggregate figures only; see spend.json. No per-system costs exist.",
+  "vendor_named_count": 168,
+  "blank_status_year_count": 66,
+  "blank_status_count": 42,
+  "blank_built_by_count": 30
+ }
+}

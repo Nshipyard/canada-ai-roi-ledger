@@ -1,0 +1,55 @@
+{
+ "schema": {
+  "fields": [
+   {
+    "name": "system_id",
+    "type": "string",
+    "description": "Stable public ID (AIRO-NNNN)",
+    "availability": "populated"
+   },
+   {
+    "name": "system_name",
+    "type": "string",
+    "description": "English name of the AI system",
+    "availability": "populated"
+   },
+   {
+    "name": "institution",
+    "type": "string",
+    "description": "Federal institution reporting the system",
+    "availability": "populated"
+   },
+   {
+    "name": "per_system_cost_cad",
+    "type": "number",
+    "description": "Total cost attributable to this system",
+    "availability": "missing"
+   },
+   {
+    "name": "deployment_date",
+    "type": "date",
+    "description": "Date the system went live in production",
+    "availability": "missing"
+   },
+   {
+    "name": "outcome_metric",
+    "type": "string",
+    "description": "Measured outcome: cost saved, time reduced, accuracy improved",
+    "availability": "missing"
+   },
+   {
+    "name": "baseline",
+    "type": "string",
+    "description": "Pre-AI baseline the outcome is measured against",
+    "availability": "missing"
+   }
+  ]
+ },
+ "rows": [],
+ "missing_links": [
+  "no per-system cost data in the Register or any public source",
+  "no go-live/deployment dates joined to systems (status_year is a year in most rows, blank in 66 of 412)",
+  "no outcome metrics joined to named systems anywhere public"
+ ],
+ "statement_en": "This table is intentionally empty. It defines the join that would be needed to answer whether a government AI system made a service cheaper or faster. No public source currently provides all three links for any system."
+}

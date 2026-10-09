@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "retrieved": "2026-10-08",
+  "warning": "Aggregate reporting only. No per-system costs exist in any public source. Never divide or allocate these totals across systems."
+ },
+ "rows": [
+  {
+   "label_en": "Reported federal AI spend since 2023",
+   "amount_cad_millions": 800,
+   "scope_en": "Total reported by federal departments in response to MP Jagsharan Singh Mahal's request",
+   "source": "Canadian Press via Global News",
+   "source_date": "2026-05-13",
+   "caveats": [
+    "Supplied by departments in response to MP Jagsharan Singh Mahal's request; not all departments complied",
+    "RCMP reported no centralized database",
+    "CSE and CSIS declined to provide information",
+    "Range spans a few hundred dollars (chatbot subscriptions) to multimillion-dollar contracts",
+    "Reported total, not an audited figure"
+   ]
+  },
+  {
+   "label_en": "Dayforce",
+   "amount_cad_millions": 350,
+   "scope_en": "Public-service HR/pay system contract (Phoenix replacement), PSPC",
+   "source": "Canadian Press via Global News",
+   "source_date": "2026-05-13",
+   "caveats": []
+  },
+  {
+   "label_en": "Cohere",
+   "amount_cad_millions": 240,
+   "scope_en": "Investment in Cohere Inc., ISED",
+   "source": "Canadian Press via Global News",
+   "source_date": "2026-05-13",
+   "caveats": []
+  },
+  {
+   "label_en": "National Defence",
+   "amount_cad_millions": 83.7,
+   "scope_en": "AI spend reported by the Department of National Defence",
+   "source": "Canadian Press via Global News",
+   "source_date": "2026-05-13",
+   "caveats": []
+  },
+  {
+   "label_en": "Canada Revenue Agency",
+   "amount_cad_millions": 29.9,
+   "scope_en": "AI spend reported by the Canada Revenue Agency",
+   "source": "Canadian Press via Global News",
+   "source_date": "2026-05-13",
+   "caveats": []
+  }
+ ]
+}
