@@ -13,7 +13,7 @@ const en = {
   nav: { explorer: "Explorer", showcase: "Showcase", developers: "Developers", data: "Data", back: "All projects" },
   hero: {
     kicker: "Nshipyard Canada · Open data project",
-    title: "412 government AI systems. Zero public ROI records.",
+    title: "Canada's AI Register lists 412 systems across 42 institutions. It records no costs and no results.",
     sub: "Canada published its AI Register in November 2025: 412 systems across 42 institutions, retrieved here on 2026-10-08. The register says what exists, not what it cost or whether it worked. Reported AI spending since 2023 exceeds $800M, yet no public source connects one system to its price tag or to a measured outcome. This project normalizes the register, publishes the spending with its caveats, and publishes the gap as data.",
     cta1: "Search the systems",
     cta2: "Read the methodology",
@@ -145,7 +145,7 @@ const fr: Dict = {
   nav: { explorer: "Explorateur", showcase: "Vitrine", developers: "Développeurs", data: "Données", back: "Tous les projets" },
   hero: {
     kicker: "Nshipyard Canada · Projet de données ouvertes",
-    title: "412 systèmes d'IA gouvernementaux. Zéro dossier public de rendement.",
+    title: "Le Registre d'IA du Canada recense 412 systèmes dans 42 institutions. Il n'indique ni coûts ni résultats.",
     sub: "Le Canada a publié son registre de l'IA en novembre 2025 : 412 systèmes dans 42 institutions, récupérés ici le 2026-10-08. Le registre dit ce qui existe, pas ce que cela a coûté ni si cela a fonctionné. Les dépenses d'IA déclarées depuis 2023 dépassent 800 M$, mais aucune source publique ne relie un seul système à son prix ou à un résultat mesuré. Ce projet normalise le registre, publie les dépenses avec leurs réserves, et publie l'écart comme donnée.",
     cta1: "Rechercher les systèmes",
     cta2: "Lire la méthodologie",
